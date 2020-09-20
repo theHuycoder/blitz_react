@@ -1,0 +1,307 @@
+.goi-co-ban-display {
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.16);
+}
+.custom-select:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.goi-co-ban-display .label-country-select:focus {
+    border: none;
+    outline: none;
+    background:none;
+}
+.goi-co-ban-display .country-select-input:focus {
+    outline: none;
+}
+.goi-co-ban-display .btn.btn-raised.btn-primary {
+    color:#ffffff;
+    border-radius: 0;
+    background-color:#36177E;
+    border:none;
+    margin:0;
+}
+.goi-co-ban-display .btn.btn-raised.btn-primary:hover {
+    background-color: rgba(54,23,126,0.6);
+}
+.container-goi-cuoc {
+    transition: all 0.4s ease;
+    position: relative;
+}
+.container-goi-cuoc .fa-check {
+    color: #087E00;
+}
+.container-goi-cuoc .fa-times {
+    color: #FE0E0E;
+}
+.container-goi-cuoc .fa-check-circle {
+    color:#087E00;
+}
+.active-current-goi-cuoc {
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+    border: 1px solid #08860F;
+    background-color: #D8FFDA!important;
+    height: auto;
+}
+.price-current-active {
+    border-bottom: 1px solid #08860F;
+}
+.option-bo-sung .fa-check-circle {
+    color:#087E00;
+}
+.option-bo-sung .fa-plus-circle {
+    color:#36177E;
+}
+.card {
+    box-shadow: none;
+}
+button.btn-link {
+    padding: 0;
+}
+.card-header {
+    border:none;
+    padding: 0 0 1.5rem 0!important;
+}
+.card-body {
+    padding: 0 0 1.5rem 2.75rem!important;
+    margin-top: -1rem;
+}
+.card-body:nth-child(5){
+    padding-bottom: 1.5rem!important;
+}
+.custom-radio .custom-control-input:checked~.custom-control-label:before {
+    background-color:#36177E;
+}
+.next-to-adress .btn.btn-raised.btn-primary {
+    background-color:#36177E;
+    border-color: #36177E;
+}
+.next-to-adress .btn.btn-raised:hover {
+    background-color: rgba(54,23,126,0.6)!important;
+}
+.next-to-adress .btn.btn-raised.btn-primary:active:focus {
+    background-color: rgba(54,23,126,0.6)!important;
+    border: none;
+    outline: none;
+}
+.goi-co-ban-display > p.text-28px {
+    display: inline-block;
+}
+.goi-co-ban-display button.btn.btn-primary {
+    color:rgba(0,0,0,1);
+}
+.goi-co-ban-display button.btn.btn-primary:focus {
+    background: none;
+    border: none;
+}
+.country-select-input {
+    border: 1px rgba(0,0,0,1) solid;
+}
+.country-select-input.focus {
+    border: 2px #36177E solid;
+    border-radius: 0;
+    background-color: transparent;
+}
+.row-goi-cuoc {
+    justify-content: space-between;
+    margin:0;
+}
+.container-goi-cuoc {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+.chon-goi-cuoc-all-price {
+    display: flex;
+    justify-content: space-between;
+}
+.chon-goi-cuoc-all-price .Head5,.chon-goi-cuoc-all-price .Head4 {
+    font-weight: 700!important;
+}
+.gui-hang-nhap-dia-chi .input-with-label-in {
+    width: 46.75rem;
+    height: 3.5rem;
+    overflow: hidden;
+    padding: 0 1.4rem 0.4rem;
+    border: 2px rgba(0, 0, 0, 0.38) solid;
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+.gui-hang-nhap-dia-chi .input-with-label-in label {
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.btn-link:hover,.btn-link:focus {
+    text-decoration: none;
+    outline: none;
+    border:none;
+}
+.goi-co-ban-display .custom-control-label:after, .custom-control-label:before {
+    top:0.3rem;
+}
+@media (min-width: 1400px) {
+    .goi-co-ban-display {
+        padding: 1rem 2.625rem 3.75rem;
+    }
+
+    .goi-co-ban-display form {
+        margin-bottom: 0;
+    }
+    .goi-co-ban-display button.btn.btn-primary {
+        margin:0 0 1rem 0;
+        padding:0;
+    }
+    .country-select-input {
+        width: 50%;
+    }
+    .label-country-select {
+        font-size: 0.75rem;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        line-height: 1.25rem;
+        text-transform: uppercase;
+        margin: 0; padding-left: 1.5rem;
+    }
+    .goi-co-ban-display .custom-select {
+        width: 100%; height:100%;
+        margin: 0;
+        border: none;
+        padding:0 0 0 1.5rem;
+    }
+    .container-goi-cuoc {
+        padding:0 0.8rem;
+        max-width: 9.75rem!important;
+    }
+    h4.modal-title.Head4 {
+        font-weight: 700!important;
+        width:100%;
+        border-bottom: 2px rgba(0,0,0,0.6) solid;
+    }
+    .country-select-form {
+        display:flex;
+        align-items: center;
+    }
+    div.info-price-country {
+        margin-left: 1rem;
+    }
+    button.country-info-price{
+        display: inline-block;
+    }
+    button.country-info-price .fa-question-circle {
+        display:inline-block;
+    }
+    .container-goi-cuoc button.small-info {
+        position: absolute;
+        top:26%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .container-goi-cuoc .fa-question-circle {
+        background-color: rgba(255,255,255,1);
+        display: inline-block;
+        font-size: 1.25rem!important;
+        border-radius: 100%;
+    }
+
+    .goi-co-ban-display p.text-28px:nth-of-type(2){
+        margin:1.5rem 0 1rem 0;
+    }
+    .container-goi-cuoc .price {
+        padding:1rem 1.2rem;
+        margin: 0 -0.8rem 1rem;
+        background-color: #FFE700;
+    }
+    .container-goi-cuoc .paket-size {
+        margin-bottom: 0.5rem;
+    }
+    .container-goi-cuoc .price, .container-goi-cuoc .paket-size {
+        font-weight: 700!important;
+    }
+    .paket-info{
+        text-align: left;
+    }
+    .paket-info p {
+        margin:0;
+        font-size: 0.75rem;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        line-height: 1.25rem;
+    }
+    .paket-info p:first-child {
+        margin-left: 1rem;
+    }
+    .paket-info-text {
+        margin-left: 2.4px;
+    }
+    .goi-co-ban-display .btn.btn-raised.btn-primary {
+        font-size: 9px!important;
+        padding:5px 2.5rem;
+        margin-top: 0.625rem;
+        margin-bottom: 1.375rem;
+    }
+    .container-goi-cuoc .fa-check-circle {
+        margin-top: 0.75rem;
+    }
+    .goi-co-ban-display p.body2 {
+        border-bottom: rgba(0,0,0,0.38) 1px solid;
+        padding-bottom: 0.5rem;
+        margin-top: 2.5625rem;
+    }
+    .goi-co-ban-display p.text-28px:nth-of-type(3){
+        margin:1.5rem 0 1rem 0;
+    }
+    .goi-co-ban-display p.body2:nth-of-type(5){
+        margin:0;
+        border: none;
+    }
+    .btn-link {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    .btn-link p{
+        margin: 0; padding:0 0 0 0.5rem;
+        text-align: left;
+        text-decoration: none;
+        border:none;
+        text-transform: none;
+    }
+    .option-bo-sung .btn-link p.body2:nth-of-type(1){
+        font-weight: 700!important;
+    }
+    .goi-co-ban-display .option-bo-sung p.body2 {
+        border-bottom: none;
+        padding-bottom:0;
+        margin-top: 0;
+    }
+    .gui-hang-nhap-dia-chi .input-with-label-in {
+        width: 46.75rem;
+        height: 3.5rem;
+        overflow: hidden;
+        padding: 0 1.4rem 0.4rem;
+        border: 2px rgba(0, 0, 0, 0.38) solid;
+        background-color: rgba(0, 0, 0, 0.07);
+    }
+
+    .gui-hang-nhap-dia-chi .input-with-label-in label {
+        font-size: 0.75rem;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+    }
+
+    .chon-goi-cuoc-all-price {
+        width: 29.75rem;
+        margin-top: 2.875rem;
+        margin-left: 2.625rem;
+    }
+
+    .next-to-adress .btn.btn-raised.btn-primary{
+        padding:0.625rem 12.375rem;
+        margin-left: 2.625rem;
+        margin-top: 3.5rem;
+    }
+}

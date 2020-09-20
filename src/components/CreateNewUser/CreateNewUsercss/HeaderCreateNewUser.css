@@ -1,0 +1,18 @@
+.header-create-new-user {
+    padding:0;margin:0;
+}
+.row-header-create-new-user .img-container {
+    position: relative;
+    padding-top: 18.3%;
+}
+.row-header-create-new-user img {
+    position: absolute;
+    top:0; left: 0;
+    width: 100%;height: 100%;
+    background-color: #FFE700;
+}
+@media (min-width: 1400px) {
+    .row-header-create-new-user {
+        padding-top: 9rem;
+    }
+}

@@ -1,0 +1,31 @@
+.header-create-new-user-info {
+    margin:0;padding:0;
+}
+.row-header-create-new-user-info .img-container {
+    position: relative;
+    padding-top: 18.3%;
+    background-color: #FFE700;
+}
+.row-header-create-new-user-info .img-container .info-new-user {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 0; left: 0;
+    width: 43.75%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    background-color: #36177E;
+}
+.row-header-create-new-user-info .Head4, .row-header-create-new-user-info .body2 {
+    color:#FFE700;
+}
+.row-header-create-new-user-info .body2 {
+    font-weight: 500!important;
+    width: 70%;
+}
+@media (min-width: 1400px) {
+    .row-header-create-new-user-info {
+        padding-top: 9rem;
+    }
+}

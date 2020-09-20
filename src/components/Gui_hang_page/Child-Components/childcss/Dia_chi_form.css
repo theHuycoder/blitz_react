@@ -1,0 +1,293 @@
+.was-validated .is-focused .form-control:valid:focus {
+    border-color: rgba(54, 23, 126, 1);
+    box-shadow: none;
+}
+
+.was-validated .is-focused .form-control:invalid:focus {
+    border-color: rgba(54, 23, 126, 1);
+    box-shadow: none;
+}
+
+.was-validated .is-focused .custom-select:invalid:focus {
+    border-color: rgba(54, 23, 126, 1);
+    box-shadow: none;
+}
+
+.was-validated .is-focused .custom-select:valid:focus {
+    border-color: rgba(54, 23, 126, 1);
+    box-shadow: none;
+}
+
+.was-validated .custom-select:valid {
+    border-color: rgba(54, 23, 126, 1);
+    box-shadow: none;
+}
+
+.was-validated .form-control:valid {
+    border-color: rgba(54, 23, 126, 1);
+    box-shadow: none;
+}
+
+.was-validated .form-control:invalid ~ .invalid-feedback {
+    display: inline-block !important;
+}
+
+.custom-select.is-valid:focus, .form-control.is-valid:focus, .is-valid.custom-file-control:focus, .was-validated .custom-file-control:valid:focus, .was-validated .custom-select:valid:focus, .was-validated .form-control:valid:focus {
+    box-shadow: none;
+    border-color: rgba(54, 23, 126, 1);
+}
+.btn-outline-primary {
+    background-color: transparent !important;
+    color: #36177E !important;
+    text-transform: none !important;
+    border: 1px #36177E solid !important;
+    border-radius: 0;
+}
+.btn.btn-outline-primary:hover{
+    background-color: rgba(92,40,215,0.12)!important;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: none;
+    background-color: rgba(92,40,215,0.12);
+}
+
+.gui-hang-nhap-dia-chi .form-control {
+    background-image: none;
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500 !important;
+    color: #000000;
+    border: 2px rgba(0, 0, 0, 0.38) solid;
+    display: inline-block;
+}
+
+.gui-hang-nhap-dia-chi .custom-select {
+    font-size: 1.5rem;
+    font-weight: 500 !important;
+    color: rgba(0, 0, 0, 1);
+    border: 2px rgba(0, 0, 0, 0.38) solid;
+    display: inline-block;
+}
+
+.gui-hang-nhap-dia-chi .city-default {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.gui-hang-nhap-dia-chi .custom-select option {
+    color: rgba(0, 0, 0, 1);
+}
+
+.gui-hang-nhap-dia-chi .custom-select option[disabled] {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+ .form-control:focus {
+    box-shadow: none;
+    border: 3px #36177E solid!important;
+}
+
+.gui-hang-nhap-dia-chi .custom-select:focus {
+    box-shadow: none;
+    border: 3px #36177E solid;
+}
+
+.gui-hang-nhap-dia-chi input[type="text"].form-control::placeholder,
+.gui-hang-nhap-dia-chi input[type="email"].form-control::placeholder {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.gui-hang-nhap-dia-chi .input-with-label-in {
+    overflow: hidden;
+    border: 2px rgba(0, 0, 0, 0.38) solid;
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+.gui-hang-nhap-dia-chi .input-with-label-in label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+.gui-hang-nhap-dia-chi .form-control-country {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+
+.gui-hang-nhap-dia-chi .btn-outline-primary {
+    border-radius: 0 !important;
+}
+
+.gui-hang-nhap-dia-chi .btn-outline-primary:nth-of-type(1) {
+    margin-bottom: 1.5rem;
+}
+
+.gui-hang-nhap-dia-chi .option-giao-hang-tai-nha {
+    border-bottom: 1px rgba(0, 0, 0, 0.38) solid;
+}
+
+.gui-hang-nhap-dia-chi .option-giao-hang-tai-nha p.body2:nth-of-type(1),
+.gui-hang-nhap-dia-chi .option-giao-hang-theo-ngay p.body2:nth-of-type(1) {
+    font-weight: 700 !important;
+}
+
+.gui-hang-nhap-dia-chi .option-giao-hang-tai-nha .input-with-label-in,
+.gui-hang-nhap-dia-chi .option-giao-hang-theo-ngay .input-with-label-in {
+    overflow: hidden;
+    border: 2px rgba(0, 0, 0, 0.38) solid;
+    background-color: #ffffff;
+}
+
+.gui-hang-nhap-dia-chi .option-giao-hang-tai-nha .input-with-label-in .custom-select,
+.gui-hang-nhap-dia-chi .option-giao-hang-theo-ngay .input-with-label-in .custom-select {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.gui-hang-nhap-dia-chi .focus {
+    border: 2px #36177E solid !important;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.gui-hang-nhap-dia-chi .fa-check-circle {
+    color: #087E00;
+}
+
+.gui-hang-nhap-dia-chi .fa-plus-circle {
+    color: #36177E;
+}
+
+.gui-hang-nhap-dia-chi .option-luu-y {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+.gui-hang-nhap-dia-chi .option-giao-hang-theo-ngay .luu-y,
+.gui-hang-nhap-dia-chi .option-giao-hang-tai-nha .luu-y {
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.25px !important;
+    line-height: 1.25rem !important;
+
+}
+
+.gui-hang-nhap-dia-chi .option-giao-hang-theo-ngay span.body2,
+.gui-hang-nhap-dia-chi .option-giao-hang-tai-nha span.body2 {
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+.gui-hang-nhap-dia-chi .focus {
+    border: 2px #36177E solid !important;
+    border-radius: 0;
+}
+
+@media (min-width: 1400px) {
+    .gui-hang-nhap-dia-chi .input-button {
+        margin-bottom: 1rem;
+    }
+
+    .gui-hang-nhap-dia-chi .receiver-input-form {
+        padding-bottom: 2rem;
+        border-bottom: 1px rgba(0, 0, 0, 0.38) solid;
+        margin-bottom: 2rem;
+    }
+
+    .gui-hang-nhap-dia-chi .form-control {
+        border: 2px rgba(0, 0, 0, 0.38) solid;
+        width: 46.75rem;
+        height: 3.5rem;
+        margin: 0;
+        padding: 0.5rem 1.4rem 1rem;
+    }
+
+    .gui-hang-nhap-dia-chi .custom-select {
+        border: 2px rgba(0, 0, 0, 0.38) solid;
+        width: 46.75rem;
+        height: 3.5rem;
+        margin: 0;
+        padding: 0.5rem 1.4rem 0.5rem;
+        display: inline-block;
+    }
+
+
+
+
+
+    .gui-hang-nhap-dia-chi .input-with-label-in {
+        width: 46.75rem;
+        height: 3.5rem;
+        padding: 0 1.4rem 0.4rem;
+        border: 2px rgba(0, 0, 0, 0.38) solid;
+    }
+
+    .gui-hang-nhap-dia-chi .input-with-label-in label {
+        font-size: 0.75rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .gui-hang-nhap-dia-chi .form-control-country {
+        padding: 0;
+        border: none;
+        height: 1.4rem;
+    }
+
+    .gui-hang-nhap-dia-chi input[type="email"] {
+        width: 43.5rem;
+    }
+
+    .gui-hang-nhap-dia-chi .btn-outline-primary {
+        width: 25.125rem;
+        height: 2.25rem;
+    }
+
+
+
+    .gui-hang-nhap-dia-chi .btn-outline-primary:nth-of-type(1) {
+        margin-bottom: 1.5rem;
+    }
+
+    .gui-hang-nhap-dia-chi .option-giao-hang-tai-nha {
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
+        border-bottom: 1px rgba(0, 0, 0, 0.38) solid;
+    }
+
+
+    .gui-hang-nhap-dia-chi .option-giao-hang-tai-nha .input-with-label-in,
+    .gui-hang-nhap-dia-chi .option-giao-hang-theo-ngay .input-with-label-in {
+        width: 46.75rem;
+        height: 3.5rem;
+        padding: 0 1.4rem 0.4rem;
+        border: 2px rgba(0, 0, 0, 0.38) solid;
+    }
+
+    .gui-hang-nhap-dia-chi .option-giao-hang-tai-nha .input-with-label-in .custom-select,
+    .gui-hang-nhap-dia-chi .option-giao-hang-theo-ngay .input-with-label-in .custom-select {
+        padding: 0;
+        width: 45rem;
+        height: 2rem;
+        margin-top: -0.4rem;
+    }
+
+    .gui-hang-nhap-dia-chi .option-luu-y {
+
+        width: 46.75rem;
+        padding: 0.75rem 0 0.75rem 1.5rem;
+    }
+
+    .gui-hang-nhap-dia-chi .option-giao-hang-theo-ngay .luu-y,
+    .gui-hang-nhap-dia-chi .option-giao-hang-tai-nha .luu-y {
+        width: 90%;
+        margin-left: 1rem;
+        margin-bottom: 0;
+    }
+
+}

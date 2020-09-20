@@ -1,0 +1,50 @@
+.section-1-homepage {
+    background-color: rgba(0,0,0,0.08);
+}
+.row-section-1-homepage{
+    align-items: center;
+    justify-content: space-between;
+}
+.section-1-card {
+    padding-top: 91.91%;
+    background-color: #FFE700;
+    position: relative;
+    width: 89.2%;
+    margin:auto;
+}
+.section-1-img, .section-1-text {
+    position: absolute;
+}
+.section-1-img {
+    top: 0; left: 0;
+    width: 100%;height: 68%;
+    background-color: #36177E;
+}
+.section-1-text {
+    top:68.5%;
+    left: 3%;
+}
+.section-1-text p{
+    width: 74%;
+}
+.section-1-text .btn-primary {
+    margin:0;
+    padding:0;
+}
+.section-1-text .btn-primary:not(:disabled):not(.disabled).active {
+    background-color:transparent;
+    color:#36177E ;
+}
+@media (min-width: 1400px) {
+    .row-section-1-homepage {
+        padding: 6rem 0;
+    }
+    .section-1-card {
+    }
+    .section-1-text p,.section-1-text h6 {
+        margin-bottom:0.5rem;
+    }
+    .section-1-text i {
+        margin-left: 0.5rem;
+    }
+}

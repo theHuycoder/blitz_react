@@ -1,0 +1,29 @@
+@media (min-width: 1400px) {
+    .Progressbar span{
+        display: inline-block;
+        width: 7rem; height: 7rem;
+    }
+    .Progressbar span.step.Head4{
+        text-align: center;
+        font-weight: 700!important;
+        color:#36177E;
+        height: 4.75rem; width: 4.75rem;
+        padding-top: 0.2rem;
+        border: 6.5px #36177E solid;
+        border-radius: 50%;
+    }
+    .Progressbar p.text-18px {
+        text-transform: uppercase;
+        color: #36177E;
+        margin-top: 0.5rem;
+    }
+    .Progressbar span.connect {
+        width: 12.5rem;height: 0.5rem;
+        margin:0 -1.2rem 3.5rem;
+        background-color:#36177E ;
+    }
+    .Progressbar .active {
+        background-color: #36177E;
+        color:#FFE700!important;
+    }
+}

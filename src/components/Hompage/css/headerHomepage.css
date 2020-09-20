@@ -1,0 +1,77 @@
+.row-main-Header {
+    align-items: flex-start;
+}
+
+.row-input-header .bmd-form-group {
+    width: 66.2% !important;
+}
+
+.col-table-form {
+    padding: 0;
+}
+
+.col-slide {
+    padding: 0;
+}
+
+.col-slide .container-slide {
+    padding-top: 56.25%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slick-slider {
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.slick-slider .slick-list {
+    height: 100%;
+}
+.slick-slider .slick-track {
+    height: 100%;
+}
+.slick-slider .slick-track .slick-slide {
+    height: 100%;
+}
+.slick-slider .slick-track .slick-slide > div {
+    height: 100%;
+}
+.container-slide .each-slide-header {
+    height: 100%;
+}
+.img-slide-header {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media (min-width: 1400px) {
+    .container-main-Header {
+        padding-bottom: 7rem;
+    }
+
+    .row-main-Header {
+        padding-top: 9rem;
+    }
+
+    .col-slide {
+        padding: 0 0 0 1rem;
+    }
+
+    .col-input-header {
+        padding: 0;
+    }
+
+    .col-left {
+        padding-right: 4rem;
+    }
+
+    .col-right:last-child {
+        padding-left: 4rem;
+    }
+}

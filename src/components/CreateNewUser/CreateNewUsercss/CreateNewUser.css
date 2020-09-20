@@ -1,0 +1,109 @@
+.create-new-user {
+    background-color: #EBEBEB;
+}
+.col-breadcrumb {
+    margin:0;
+    padding:0;
+    background:none;
+}
+.create-new-user .form-control {
+    background-image: none;
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500 !important;
+    color: #000000;
+    border: 2px rgba(0, 0, 0, 0.38) solid;
+    display: inline-block;
+}
+
+.create-new-user .col-form-left {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+}
+
+.create-new-user .inner-form .row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create-new-user .inner-form .form-control {
+    font-size: 1rem;
+}
+
+.create-new-user .inner-form .input-select {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.create-new-user .btn-primary {
+    color: rgba(255, 255, 255, 1);
+    background-color: #36177E !important;
+    border-radius: 0;
+}
+
+.create-new-user .btn-primary:hover {
+    background-color: rgba(54, 23, 126, 0.6) !important;
+}
+
+.create-new-user .btn-primary:focus, .create-new-user .btn-primary:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.create-new-user .col-info-right h4 {
+    color: #36177E;
+}
+.form-control.invalid {
+    border:2px red solid!important;
+}
+.repeat-password {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #f44336;
+    display: none;
+}
+.repeat-password.show {
+    display: inline-block;
+}
+@media (min-width: 1400px) {
+    .row-create-new-user {
+        padding: 1.125rem 0 3.75rem 0;
+    }
+    .create-new-user .breadcrumb {
+        margin-bottom: 3rem;
+    }
+    .create-new-user .col-form-left {
+        padding: 2.25rem 7.25rem 4rem;
+    }
+
+    .create-new-user .inner-form .row {
+        margin-bottom: 1.75rem;
+    }
+
+    .create-new-user .inner-form .form-control {
+        padding: 0 1rem;
+        height: 3.5rem;
+    }
+
+    .create-new-user .inner-form .input-select .custom-control {
+        margin-right: 4.5rem;
+    }
+
+    .create-new-user .custom-control-label:after, .create-new-user .custom-control-label:before {
+        top: 0.5rem;
+    }
+
+    .create-new-user .btn-primary {
+        padding: 0.625rem 9.625rem;
+    }
+
+    .create-new-user .col-info-right {
+        padding-left: 4rem;
+    }
+
+    .create-new-user .col-info-right h4 {
+        margin-bottom: 3.75rem;
+    }
+}

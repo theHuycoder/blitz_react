@@ -1,0 +1,56 @@
+.section-2-create-new-user-info{
+    background-color: rgba(0,0,0,0.08);
+}
+.section-2-create-new-user-info.white-bg {
+    background-color: rgba(255,255,255,1);
+}
+.row-section-2-create-new-user-info{
+    align-items: center;
+    justify-content: space-between;
+}
+.section-2-create-new-user-info-card {
+    padding-top: 91.91%;
+    background-color: #FFE700;
+    position: relative;
+    width: 89.2%;
+}
+.section-2-create-new-user-info-img, .section-2-create-new-user-info-text {
+    position: absolute;
+}
+.section-2-create-new-user-info-img {
+    top: 0; left: 0;
+    width: 100%;height: 68%;
+    background-color: #36177E;
+}
+.section-2-create-new-user-info-text {
+    top:68.5%;
+    left: 3%;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.section-2-create-new-user-info-text p{
+    width: 92%;
+}
+.section-2-create-new-user-info-text .btn-primary {
+    margin:0;
+    padding:0;
+}
+.section-2-create-new-user-info-text .btn-primary:not(:disabled):not(.disabled).active {
+    background-color:transparent;
+    color:#36177E ;
+}
+@media (min-width: 1400px) {
+    .row-section-2-create-new-user-info{
+        padding: 6rem 0;
+    }
+    .section-2-create-new-user-info-text p,.section-2-create-new-user-info-text h6 {
+        margin-bottom:0.5rem;
+    }
+    .section-2-create-new-user-info-text i {
+        margin-left: 0.5rem;
+    }
+}

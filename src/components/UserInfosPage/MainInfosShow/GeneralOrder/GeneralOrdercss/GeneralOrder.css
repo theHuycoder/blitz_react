@@ -1,0 +1,145 @@
+
+.option-button {
+    color: #36177E;
+    border: #707070 2px solid;
+    border-bottom: none;
+    background-color: #EBEBEB;
+    cursor: pointer;
+    position: relative;
+}
+
+.option-button.active {
+    background-color: #FFE700;
+    border-color: #36177E;
+    top:-3px;
+    height: 106%;
+}
+
+.row-general-order table {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border: 2px #36177E solid;
+}
+
+.row-general-order table td,
+.row-general-order table th {
+    border: 2px #36177E solid;
+}
+
+.row-general-order table thead tr th:last-child {
+    width: 12%;
+}
+
+.row-general-order table thead tr th:nth-child(2),
+.row-general-order table thead tr th:nth-child(3) {
+    width: 15%;
+}
+
+.row-general-order table thead tr th:nth-child(4) {
+    width: 12%;
+}
+
+.row-general-order table tbody tr td:first-child {
+    text-transform: uppercase;
+}
+
+.row-general-order .order-quantity form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.row-general-order .order-quantity form span {
+    width: 15% !important;
+    border-radius: 0 !important;
+}
+
+.row-general-order .order-quantity form select {
+    border-radius: 0 !important;
+    border: 2px rgba(0,0,0,0.6) solid;
+}
+
+.row-general-order .order-quantity form select {
+    width:100%!important;
+}
+
+.row-general-order .order-quantity form select:focus {
+    border-radius: 0 !important;
+    outline: none!important;
+}
+.row-general-order .order-quantity form label {
+    margin:0;
+}
+.row-general-order .order-page {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.row-general-order .order-page button {
+    border: 2px rgba(0,0,0,1) solid;
+    color: rgba(0,0,0,1);
+    background:none;
+    cursor:pointer;
+    background-color: #ffffff;
+}
+.row-general-order .order-page button:first-child,.row-general-order .order-page button:nth-child(2){
+    border-right:none;
+}
+.row-general-order .order-page button:last-child,.row-general-order .order-page button:nth-child(4){
+    border-left:none;
+}
+.row-general-order .order-page span {
+    display: inline-block;
+    width: 12%!important;
+}
+.row-general-order .order-page input {
+    width: 100%;
+    border: 2px rgba(0,0,0,0.6) solid;
+    border-radius: 0;
+    background-color: #36177E;
+    color:#FFE700;
+    font-weight: 700!important;
+    padding:0;
+}
+.row-general-order .order-page input:focus {
+    border-radius: 0;
+    outline: none;
+}
+.fast-page-button.disabled,.page-button.disabled {
+    color:rgba(0,0,0,0.38) !important;
+    border-color: rgba(0,0,0,0.38) !important;
+    cursor:not-allowed!important;
+}
+@media (min-width: 1400px) {
+
+
+    .row-general-order table td,
+    .row-general-order table th {
+        padding: 1rem 1.25rem;
+    }
+
+    .option-button {
+        padding: 0.5rem 2rem 0.5rem 0.75rem;
+        margin-right: 0.25rem;
+    }
+    .row-general-order .order-quantity{
+        margin-top: 2rem;
+    }
+    .row-general-order .order-page {
+        margin-top: 2.5rem;
+    }
+    .row-general-order .order-quantity form select {
+        height: 3.2rem;
+    }
+    .row-general-order .order-quantity form label {
+        margin-left:0.5rem;
+    }
+    .row-general-order .order-page button {
+        padding:0.75rem 1.25rem;
+    }
+    .row-general-order .order-page input {
+        height: 3.25rem;
+    }
+
+}

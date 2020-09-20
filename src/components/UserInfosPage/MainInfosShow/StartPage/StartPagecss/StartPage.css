@@ -1,0 +1,150 @@
+.row-start-page .item {
+    border: #36177E solid 1px;
+    background-color: #ffffff;
+}
+
+.row-start-page .item h6 {
+    color: #FFE700;
+    background-color: #36177E;
+    margin: 0;
+}
+
+.row-start-page p.text-18px {
+    font-weight: 500 !important;
+}
+
+.row-start-page .main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.row-start-page .main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row-start-page .main ul li a.body1 {
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+    color: #36177E;
+    border-bottom: 1px #36177E solid;
+}
+
+.row-start-page .main ul li a.body1:hover {
+    text-decoration: none;
+}
+
+.row-start-page .btn.btn-raised.btn-primary {
+    background-color: #36177E;
+    border-color: #36177E;
+}
+
+.row-start-page .btn.btn-primary:hover {
+    background-color: rgba(54, 23, 126, 0.6) !important;
+}
+
+.row-start-page .btn-primary:active:focus {
+    background-color: rgba(54, 23, 126, 0.6) !important;
+    border: none;
+    outline: none;
+}
+
+.row-start-page .img-shopee {
+    display: block;
+    width: 100%;
+
+}
+
+.row-start-page .best_price .img-container,
+.row-start-page .shopee .img-container {
+    position: relative;
+    padding-top: 51.5%;
+}
+
+.row-start-page .best_price .img-container picture,
+.row-start-page .shopee .img-container picture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.row-start-page .best_price .img-container picture img,
+.row-start-page .shopee .img-container picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.row-start-page p.p-user-infos ~ a.btn-outline-primary{
+    text-transform: uppercase!important;
+}
+.row-start-page .user-infos .col-sign-up {
+    border-top: 1px black solid;
+}
+.row-start-page .user-infos .col-sign-up button {
+    border: none;
+    outline: none;
+    background:none;
+    color:#36177E;
+    cursor:pointer;
+    font-size: 1.2rem!important;
+}
+@media (min-width: 1400px) {
+    .row-start-page .item {
+        height: 26.5rem;
+        padding-bottom: 2rem;
+        margin-bottom: 2.25rem;
+    }
+
+    .row-start-page .item h6 {
+        padding: 1rem;
+    }
+
+    .row-start-page .order-manager p.text-18px {
+        margin: 1.25rem 8.6rem;
+    }
+
+    .row-start-page .main {
+        margin-right: 4rem;
+    }
+
+    .row-start-page .main ul li a.body1 {
+        padding: 1rem 0 0.5rem 0.75rem;
+    }
+
+    .row-start-page .main ul li a.btn-primary {
+        margin-top: 1.8rem;
+    }
+
+    .row-start-page p.p-shopee {
+        margin: 0.25rem 0 0.7rem 3rem;
+    }
+
+    .row-start-page p.p-shopee ~ a.btn-primary,
+    .row-start-page p.p-best-price ~ a.btn-primary,
+    .row-start-page p.p-user-infos ~ a.btn-primary {
+        margin-left: 3rem;
+    }
+
+    .row-start-page .best_price .text-18px {
+        margin: 0.25rem 0 0.7rem 3rem;
+    }
+
+    .row-start-page .user-infos p.text-18px {
+        margin: 1.75rem 1rem 3rem 3rem;
+    }
+
+    .row-start-page p.p-user-infos ~ a.btn-outline-primary {
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+    .row-start-page .user-infos .col-sign-up {
+        margin:2.75rem 3rem 0 3rem;
+        padding-top: 1rem;
+        border-top: 1px black solid;
+    }
+}

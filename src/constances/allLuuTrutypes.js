@@ -1,0 +1,1 @@
+export const GUI_HANG_SAVE_TO_REDUX = 'GUI_HANG_SAVE_TO_REDUX';

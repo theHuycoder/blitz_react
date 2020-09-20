@@ -1,0 +1,11 @@
+.user-infos-main-page {
+    background-color: #EBEBEB;
+}
+@media (min-width: 1400px) {
+    .user-infos-main-page {
+        margin-top: 11.375rem;
+    }
+    .row-user-infos-main-page {
+        padding: 3rem 0 3.75rem;
+    }
+}

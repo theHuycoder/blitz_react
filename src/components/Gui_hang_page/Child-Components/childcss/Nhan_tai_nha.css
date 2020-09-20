@@ -1,0 +1,152 @@
+.Nhan-tai-nha {
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.16);
+}
+.Nhan-tai-nha p.Head6 span {
+    font-weight: 700!important;
+}
+.Nhan-tai-nha .input-with-label-in {
+    overflow: hidden;
+    border: 2px rgba(0, 0, 0, 0.38) solid;
+    background-color: transparent;
+}
+
+.Nhan-tai-nha .input-with-label-in label {
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.Nhan-tai-nha .custom-select {
+    font-size: 1.5rem;
+    font-weight: 500 !important;
+    color: rgba(0, 0, 0, 1);
+    border: 2px rgba(0, 0, 0, 0.38) solid;
+    display: inline-block;
+}
+.Nhan-tai-nha .input-with-label-in .custom-select,
+.Nhan-tai-nha .input-with-label-in .custom-select {
+    border: none;
+    background-color: transparent;
+}
+
+.Nhan-tai-nha .focus {
+    border: 2px #36177E solid !important;
+    border-radius: 0;
+    background-color: transparent;
+}
+.btn.btn-primary:active:focus {
+    color:rgba(54 ,23,126,0.6) ;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none!important;
+}
+.Nhan-tai-nha button.btn-primary {
+    color: #36177E;
+    text-decoration: underline;
+    text-transform: none;
+    margin:0;
+    padding:0;
+    outline: none;
+}
+.Nhan-tai-nha button.btn-primary:hover {
+    background-color: transparent;
+    color: rgba(54 ,23,126,0.6) ;
+}
+.Nhan-tai-nha button.btn-primary:focus {
+    background-color: transparent;
+    color: rgba(54 ,23,126,0.6);
+    outline: none!important;
+}
+.bmd-form-group {
+    width: 45%;
+    display: block;
+}
+.disable-quantity {
+    background-color: rgba(0,0,0,0.38)!important;
+}
+button.btn-primary h6:focus {
+    background-color: transparent;
+    color: rgba(54 ,23,126,0.6);
+    outline: none!important;
+}
+button.change-quantity {
+    border:none;
+    background:none;
+    outline: none;
+    display: block;
+    background-color: #36177E;
+    color:#ffffff;
+    height: 100%;
+    width: 27.5%;
+    cursor: pointer;
+}
+button.change-quantity:hover {
+    background-color: rgba(54,23,126,0.6);
+}
+.quantity {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(0,0,0,0.12);
+    border:2px #000000 solid;
+}
+.quantity input {
+    display: block;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+.quantity input:focus {
+    outline: none;
+}
+@media (min-width: 1400px) {
+    .Nhan-tai-nha {
+        padding: 1rem 2.625rem 3.75rem;
+        margin-top: 3rem;
+    }
+    .Nhan-tai-nha p.Head6:nth-of-type(1){
+        margin-bottom: 1rem;
+    }
+    .Nhan-tai-nha button.btn-primary {
+        margin-bottom: 2.625rem;
+    }
+    .Nhan-tai-nha.input-with-label-in,
+    .Nhan-tai-nha .input-with-label-in {
+        width: 46.75rem;
+        height: 3.5rem;
+        padding: 0 1.4rem 0.4rem;
+        border: 2px rgba(0, 0, 0, 0.38) solid;
+    }
+    .Nhan-tai-nha .custom-select {
+        font-size: 1.5rem;
+        font-weight: 500 !important;
+        border: 2px rgba(0, 0, 0, 0.38) solid;
+        width: 46.75rem;
+        height: 3.5rem;
+        margin: 0;
+        padding: 0.5rem 1.4rem 0.5rem;
+    }
+    .Nhan-tai-nha .input-with-label-in .custom-select,
+    .Nhan-tai-nha .input-with-label-in .custom-select {
+        padding: 0;
+        width: 45rem;
+        height: 2rem;
+        margin-top: -0.4rem;
+    }
+
+    .Nhan-tai-nha .focus {
+        border: 2px #36177E solid !important;
+    }
+    .quantity {
+        width: 12.375rem;
+        height: 3.5rem;
+    }
+}

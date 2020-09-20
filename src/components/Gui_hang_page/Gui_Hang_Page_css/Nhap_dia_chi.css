@@ -1,0 +1,45 @@
+.gui-hang-nhap-dia-chi h3.Head3 {
+    font-weight: 700!important;
+    text-transform: uppercase;
+}
+.next-to-pay .btn.btn-raised.btn-primary {
+    background-color:#36177E;
+    border-color: #36177E;
+}
+.next-to-pay .btn.btn-raised:hover {
+    background-color: rgba(54,23,126,0.6)!important;
+}
+.next-to-pay .btn.btn-raised.btn-primary:active:focus {
+    background-color: rgba(54,23,126,0.6)!important;
+    border: none;
+    outline: none;
+}
+@media (min-width: 1400px) {
+    .gui-hang-nhap-dia-chi-form {
+        background-color: rgba(255,255,255,1);
+        padding: 1rem 2.625rem 3.75rem;
+        box-shadow: 0 6px 10px rgba(0,0,0,0.16);
+    }
+    .gui-hang-nhap-dia-chi-form .adresse-or-paket {
+        display: flex;
+        align-items: center;
+    }
+    .adresse-or-paket div:first-child{
+        margin-right: 2.75rem;
+    }
+    .nhap-dia-chi-all-price {
+        width: 29.75rem;
+        margin-top: 2.875rem;
+        margin-left: 2.625rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nhap-dia-chi-all-price .Head5,.nhap-dia-chi-all-price .Head4 {
+        font-weight: 700!important;
+    }
+    .next-to-pay .btn.btn-raised.btn-primary{
+        padding:0.625rem 12.375rem;
+        margin-left: 2.625rem;
+        margin-top: 3.5rem;
+    }
+}

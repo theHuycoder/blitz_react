@@ -1,0 +1,67 @@
+.side-bar .card {
+    background-color: transparent;
+
+}
+
+.side-bar .card-header {
+    padding: 0 !important;
+    margin:0!important;
+}
+
+.side-bar .card button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #36177E;
+    font-size: 1.125rem !important;
+    font-weight: 500 !important;
+    text-transform: none !important;
+    margin: 0;
+    border-bottom: 2px #36177E solid;
+}
+
+.side-bar #log-out-heading button {
+    border: none;
+    justify-content: flex-start;
+}
+
+.side-bar .card-body {
+    text-align: left !important;
+    margin: 0;
+    padding: 0!important;
+}
+
+.side-bar .card-body a {
+    display: block;
+    color:rgba(0,0,0,0.87);
+    background-color: #ffffff;
+    font-weight: 500!important;
+    border-bottom: 2px #36177E solid;
+}
+.side-bar .card-body a:hover {
+    background-color: #FFE700;
+    text-decoration: none;
+}
+.side-bar .card-body a.active {
+    background-color: #FFE700;
+    text-decoration: none;
+}
+@media (min-width: 1400px) {
+    .side-bar .card {
+        margin-bottom: 2rem!important;
+    }
+    .side-bar .card-header {
+        padding: 0 !important;
+    }
+
+    .side-bar .card button {
+        padding: 0 0 0.5rem 0.75rem;
+    }
+    .side-bar .card-body{
+        margin-bottom: 2rem!important;
+    }
+    .side-bar .card-body a {
+        padding: 0.5rem 0 0.5rem 0.75rem!important;
+    }
+
+}

@@ -1,0 +1,18 @@
+@media (min-width: 1400px) {
+    .Tem-dien-tu-goi-chuyen-phat {
+        margin-left: 2.875rem;
+    }
+    .goi-chuyen-phat-button {
+        color:#36177E;
+        margin-right: 1.5rem;
+        padding:0 2rem 0.5rem 2rem;
+        display: inline-block;
+    }
+    .goi-chuyen-phat-button:hover {
+        color:#36177E;
+        text-decoration: none;
+    }
+    .active-goi-chuyen-phat {
+        border-bottom: 6px #36177E solid;
+    }
+}

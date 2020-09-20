@@ -1,0 +1,118 @@
+.gui-hang-hoan-thanh .btn.btn-raised.btn-primary {
+    background-color:#36177E;
+    border-color: #36177E;
+}
+.gui-hang-hoan-thanh .btn.btn-raised:hover {
+    background-color: rgba(54,23,126,0.6)!important;
+}
+.gui-hang-hoan-thanh .btn.btn-raised.btn-primary:active:focus {
+    background-color: rgba(54,23,126,0.6)!important;
+    border: none;
+    outline: none;
+}
+.gui-hang-hoan-thanh .btn.btn-raised.btn-outline-primary {
+    background-color:transparent;
+    color:#36177E;
+    border-color: #36177E;
+    box-shadow: none;
+}
+.gui-hang-hoan-thanh .btn.btn-outline-primary.btn-raised:hover {
+    background-color: rgba(92,40,215,0.12)!important;
+}
+.gui-hang-hoan-thanh .btn.btn-raised.btn-outline-primary:active:focus {
+    background-color: rgba(92,40,215,0.12)!important;
+    border-color: #36177E;
+    outline: none;
+}
+.col-button-download {
+    display:flex;
+    justify-content: space-evenly;
+}
+.row-hoan-thanh-repeat-info .pay_name {
+    font-weight: 700!important;
+}
+@media (min-width: 1400px) {
+    .gui-hang-hoan-thanh h3.Head3 {
+        text-transform: uppercase;
+        font-weight: 700!important;
+        margin-bottom: 1.5rem;
+    }
+    .gui-hang-hoan-thanh h4.Head4 {
+        font-weight: 700!important;
+    }
+    .gui-hang-hoan-thanh p.text-28px {
+        font-weight: 400!important;
+        margin-bottom: 0;
+    }
+    .col-tieu-de-hoan-thanh{
+        text-align: center;
+        padding-top: 2.25rem;
+    }
+    .col-tieu-de-hoan-thanh .Check-code {
+        font-weight: 500!important;
+        text-transform: uppercase;
+        margin-top: 0.75rem;
+    }
+    .col-button-download {
+        text-align: center;
+        padding: 2.75rem 8rem 0;
+    }
+    .gui-hang-hoan-thanh .btn-primary {
+        padding:1rem 8.125rem;
+        font-size: 1.125rem!important;
+    }
+    .gui-hang-hoan-thanh .btn-outline-primary {
+        padding:1rem 8.125rem;
+        font-size: 1.125rem!important;
+    }
+    .col-hoan-thanh-goi-cuoc {
+        border-right: 1px rgba(112,112,112,1) solid;
+    }
+    .row-hoan-thanh-repeat-info {
+        background-color: rgba(255, 255, 255, 1);
+        padding: 3rem 2.625rem 2rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+        margin: 3.25rem 0 0 0 !important;;
+    }
+    .row-hoan-thanh-repeat-info p {
+        margin-bottom: 0.75rem;
+    }
+
+    .row-hoan-thanh-repeat-info p.Head5 {
+        font-weight: 700 !important;
+        margin-bottom: 0.5rem;
+        margin-left: 1.5rem;
+    }
+
+    .row-hoan-thanh-repeat-info p.Head6 {
+        font-weight: 400!important;
+        margin-left: 1.5rem;
+    }
+    .row-hoan-thanh-repeat-info .Head6.pay_name {
+        font-weight: 700!important;
+    }
+    .row-hoan-thanh-repeat-info .fa-check {
+        color: #087E00;
+    }
+
+    .row-hoan-thanh-repeat-info .fa-times {
+        color: #FC4747;
+    }
+    .row-hoan-thanh-repeat-info .paket-info-text {
+        margin-left: 5.4px;
+        font-size: 1.25rem !important;
+        font-weight: 400 !important;
+        letter-spacing: 0.25px !important;
+        line-height: 2rem !important;
+    }
+    .row-may-in {
+        margin-top: 3.5rem;
+        margin-bottom: 4.75rem;
+        padding-bottom: 3.5rem;
+        border-bottom: 1px rgba(112,112,112,1) solid;
+    }
+    .col-tieu-de-may-in {
+        text-align: center;
+        margin-bottom: 3.5rem;
+    }
+}

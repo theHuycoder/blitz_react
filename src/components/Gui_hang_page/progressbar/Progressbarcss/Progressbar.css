@@ -1,0 +1,8 @@
+@media (min-width: 1400px) {
+    .Progressbar {
+        margin-top: 9.125rem;
+    }
+    .Progressbar .col-Progressbar {
+        text-align: center;
+    }
+}

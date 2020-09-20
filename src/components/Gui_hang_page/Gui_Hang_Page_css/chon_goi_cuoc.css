@@ -1,0 +1,51 @@
+.button-chon-goi-cuoc-1 {
+    border: 1px #36177E solid;
+    color: #36177E;
+    display: inline-block;
+}
+.button-chon-goi-cuoc-1:hover {
+    text-decoration: none;
+    color: rgba(54,23,126,0.38);
+    border: 1px rgba(54,23,126,0.38) solid;
+    background-color: rgba(54,23,126,0.12);
+}
+.active-chon-goi-cuoc-1 {
+    color: rgba(255,255,255,1);
+    background-color: #36177E;
+    border: none;
+}
+.active-chon-goi-cuoc-1:hover {
+    color: rgba(255,255,255,1);
+    background-color: #36177E;
+    border: none;
+}
+.disabled-link {
+    pointer-events: none;
+}
+@media (min-width: 1400px) {
+    .Head3-chon-goi-cuoc {
+        font-weight: 700!important;
+        text-transform: uppercase!important;
+        margin-bottom: 1.5rem;
+    }
+    .option-chon-goi-cuoc-1{
+        margin-bottom: 1rem;
+    }
+    .button-chon-goi-cuoc-1 {
+        padding: 0.625rem 3.875rem;
+        border: 1px #36177E solid;
+        margin-right: 1rem;
+        font-weight: 500!important;
+        color: #36177E;
+    }
+    .active-chon-goi-cuoc-1 {
+        color: rgba(255,255,255,1);
+        background-color: #36177E;
+        border: none;
+    }
+    .active-chon-goi-cuoc-1:hover {
+        color: rgba(255,255,255,1);
+        background-color: #36177E;
+        border: none;
+    }
+}

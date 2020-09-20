@@ -1,0 +1,93 @@
+.login-screen {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 999;
+}
+.login-screen p.text-28px {
+    color:#36177E;
+}
+.login-screen .container-login-screen {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:3.5rem 4.375rem 7.875rem;
+    background-color:#FFE700 ;
+}
+.login-screen .form-control {
+    background-color: rgba(255,255,255,1);
+    background-image: none;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border: 1px rgba(0,0,0,0.6) solid;
+}
+.login-screen .form-control::placeholder {
+    font-size: 1.25rem;
+}
+.login-screen .is-focused .form-control {
+    background-image: none;
+    background-color: rgba(255,255,255,1);
+    border:2px #36177E solid;
+
+}
+.login-screen .form-control:focus {
+    box-shadow: none;
+
+}
+.login-screen label.text-18px {
+    font-weight: 500!important;
+}
+.login-screen .custom-control-label:after, .custom-control-label:before {
+    top:0.4rem;
+}
+.login-screen .btn.btn-raised.btn-primary {
+    background-color: #36177E;
+    border: none;
+}
+.login-screen .btn.btn-raised.btn-primary:hover {
+    background-color: rgba(54,23,126,0.6);
+    color: rgba(255,255,255,.87);
+}
+.login-screen .inner-login {
+    background-color:#FFE700;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.08);
+}
+.click-to-login{
+    width:100%;
+}
+.forgot-password {
+    display: block;
+    color:#36177E;
+}
+.login-screen .login-sign-up {
+    font-weight: 500!important;
+}
+.login-screen .login-sign-up a.Head5 {
+    color: #36177E;
+    font-style: italic;
+    text-decoration: underline;
+}
+.login-screen .login-sign-up a.Head5:hover {
+    color: #36177E;
+    opacity: 0.6;
+}
+@media (min-width: 1400px) {
+    .login-screen .container-login-screen {
+        width: 28.5rem;
+        height: 43.75rem;
+        top:45%;
+        padding:3.5rem 4.375rem 7.875rem;
+    }
+    .login-screen p.text-28px {
+        margin-bottom: 2.5rem;
+    }
+    .login-screen .form-control {
+        height: 3.5rem;
+        padding: 0 1.25rem;
+    }
+    .login-screen .custom-control-label:after, .custom-control-label:before {
+        top:0.4rem;
+    }
+}

@@ -1,0 +1,88 @@
+.row-section-2-homepage-title .title-bg {
+    background-color: #36177E;
+    width: 50%;
+    color: #FFE700;
+    margin: auto;
+}
+
+.row-section-2-homepage-benefit .inner h6 {
+    color: #36177E;
+}
+.row-section-2-homepage-benefit .inner .inner-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.row-section-2-homepage-benefit .inner .inner-content div.Head6 {
+    font-weight: 400!important;
+}
+.row-section-2-homepage-benefit .inner .mini-img {
+    width: 25%;
+    padding-top: 15%;
+    background-color: #36177E;
+}
+.row-section-2-homepage-link .link-container {
+    background-color:#FFE700;
+    padding-top: 54%;
+    position: relative;
+}
+.row-section-2-homepage-link .link-left {
+    position: absolute;
+    top: 0;left: 0;
+    background-color:#36177E;
+    width: 50%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 54% 100%, 0% 100%);
+}
+.row-section-2-homepage-link .link-left .link-left-text h6 {
+    color: #FFE700;
+}
+.row-section-2-homepage-link .link-left .link-left-text p{
+    color: rgba(255,255,255,0.74);
+}
+.row-section-2-homepage-link .btn-outline-primary {
+    background-color: transparent !important;
+    color: #FFE700 !important;
+    text-transform: none !important;
+    border: 1px #FFE700 solid !important;
+}
+.row-section-2-homepage-link .btn.btn-outline-primary:hover{
+    background-color: rgba(255,247,179,0.12)!important;
+}
+.row-section-2-homepage-link .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: none;
+    background-color: rgba(255,247,179,0.12)!important;
+}
+@media (min-width: 1400px) {
+    .row-section-2-homepage-title {
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+    }
+
+    .row-section-2-homepage-title .title-bg {
+        padding: 0.75rem;
+    }
+    .row-section-2-homepage-benefit {
+        padding-bottom: 7rem;
+    }
+    .row-section-2-homepage-benefit .inner .mini-img{
+        margin-right: 0.5rem;
+    }
+    .row-section-2-homepage-benefit .inner h6 {
+        margin-bottom: 1.5rem;
+        margin-left: 7.125rem;
+    }
+    .row-section-2-homepage-benefit .inner div.Head6 {
+        width: 17.75rem;
+    }
+    .row-section-2-homepage-link {
+        margin-bottom: 6rem;
+    }
+    .row-section-2-homepage-link .link-left {
+        padding: 1.75rem 0 0 2.25rem;
+    }
+    .row-section-2-homepage-link .link-left h6,.row-section-2-homepage-link .link-left p.body1 {
+        margin-bottom: 1.75rem;
+    }
+
+}

@@ -1,0 +1,33 @@
+.section-3-homepage {
+    background-color: #FFE700;
+}
+.row-section-3-homepage {
+    justify-content: space-between;
+}
+.row-section-3-homepage h5.Head5 {
+    color:#36177E;
+}
+.section-3-homepage .mini-img {
+    width: 70%;
+    padding-top: 50%;
+    background-color: #36177E;
+    margin: auto;
+}
+.section-3-homepage a.text-18px {
+    color: #36177E ;
+}
+.section-3-homepage a.text-18px:hover {
+    text-decoration: none;
+}
+@media (min-width: 1400px) {
+    .row-section-3-homepage {
+        padding: 3rem 0 4.5rem 0;
+    }
+    .section-3-homepage .mini-img {
+        margin-top: 3.25rem;
+        margin-bottom: 1.25rem;
+    }
+    .row-section-3-homepage h5.Head5 {
+        margin-left: 1.8rem;
+    }
+}

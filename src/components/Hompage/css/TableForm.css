@@ -1,0 +1,95 @@
+.header-table-form {
+    background-color:#36177E;
+    color: #FFE700;
+    padding-top: 110.7%;
+    position: relative;
+}
+.header-table-form form {
+    position: absolute;
+    top: 2.25rem;bottom: 3.25rem;
+    left:1.5rem;
+    right: 1.5rem;
+    margin:0;
+}
+.header-table-form .custom-select {
+    width: 100%;
+    border-radius: 0;
+}
+.image-description {
+    display: flex;
+    justify-content: space-between;
+}
+.header-table-form .custom-select:focus {
+    border: 2px #FFE700 solid;
+    box-shadow: none;
+}
+.header-table-form .btn.btn-raised.btn-primary {
+    background-color: #FFE700;
+    color: #36177E;
+    width: 100%;
+    padding:0.57rem 0;
+    margin:0;
+    border: none;
+    border-radius:0;
+    font-size: 1.25rem;
+    letter-spacing: 1.25px;
+    font-weight: 500;
+
+}
+.header-table-form .btn.btn-raised.btn-primary:hover {
+    background-color: #FFE700;
+    opacity: 0.87;
+}
+.packet-size-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.packet-size input {
+    border-radius: 0;
+    border: none;
+}
+.packet-size input:focus {
+    outline: none;
+    border: 2px #FFE700 solid;
+}
+.header-table-form .body1 {
+    text-decoration: underline;
+    color:#FFE700;
+}
+@media (min-width: 1400px) {
+    .header-table-form form {
+        top: 2.25rem;bottom: 3.25rem;
+        left:1.5rem;
+        right: 1.5rem;
+    }
+    .header-table-form .custom-select {
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 1.25rem;
+    }
+    .image-description {
+        margin-bottom: 1.25rem;
+    }
+    .header-table-form .btn.btn-raised.btn-primary {
+        width: 100%;
+        padding:0.57rem 0;
+        margin:0;
+    }
+    .packet-size-input {
+        margin-bottom: 1rem;
+    }
+    .packet-size {
+        margin-right: 2rem;
+    }
+    .packet-size input {
+        width: 6.75rem;
+        height: 2.25rem;
+        padding-left: 0.5rem;
+    }
+
+    .header-table-form p {
+        margin-bottom: 2rem;
+    }
+}

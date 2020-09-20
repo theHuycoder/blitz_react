@@ -1,0 +1,26 @@
+
+@media (min-width: 1400px) {
+    .Gui-hang-main-Page {
+        margin-top: 2.2rem;
+    }
+    .row-Gui-hang-main-Page{
+        padding: 2rem 0 4.125rem 0;
+        background-color: rgba(0,0,0,0.08);
+    }
+    .list-pay-methods {
+        padding:5.25rem 0 8.875rem 0;
+    }
+    .col-pay-methods {
+        text-align: center;
+    }
+    .list-pay-methods .Head3 {
+        font-weight: 700!important;
+        text-transform: uppercase!important;
+    }
+    .pay-method {
+        width: 4.625rem;
+        height: auto;
+        margin-right: 1rem;
+    }
+
+}

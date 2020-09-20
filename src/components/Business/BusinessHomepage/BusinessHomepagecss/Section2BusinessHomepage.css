@@ -1,0 +1,65 @@
+.section-2-business-homepage {
+    background-color: #ebebeb;
+}
+.section-2-business-homepage .col-title h4 {
+    color:#36177E;
+}
+.section-2-business-homepage .main-content {
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+}
+
+.section-2-business-homepage .main-content .col-step {
+    padding: 0;
+    margin: 0;
+}
+
+.section-2-business-homepage .main-content .step {
+    padding-top: 60%;
+    background-color: #36177E;
+    position: relative;
+}
+
+.section-2-business-homepage .main-content .step-1 {
+    clip-path: polygon(0% 0%, 93% 0, 100% 50%, 93% 100%, 0% 100%);
+    width: 103%;
+}
+
+.section-2-business-homepage .main-content .step-2,
+.section-2-business-homepage .main-content .step-3 {
+    clip-path: polygon(93% 0, 100% 50%, 93% 100%, 0% 100%, 7% 50%, 0% 0%);
+    width: 103%;
+}
+
+.section-2-business-homepage .main-content .step-4 {
+
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 7% 50%, 0% 0%);
+}
+.section-2-business-homepage .main-content .step .text {
+    position: absolute;
+    top:5.6%;left: 5.6%;
+    width: 100%;
+    height: 100%;
+}
+.section-2-business-homepage .main-content .step .text h4 {
+    color:#FFE700;
+}
+.section-2-business-homepage .main-content .step .text p {
+    color:rgba(255,255,255,0.87);
+    width: 85%;
+}
+@media (min-width: 1400px) {
+    .section-2-business-homepage .col-title {
+        margin-bottom: 3rem;
+    }
+    .row-section-2-business-homepage {
+        padding: 3.375rem 0 6rem 0;
+    }
+    .section-2-business-homepage .main-content .step .text h4 {
+        margin-bottom: 2.5rem;
+    }
+    .section-2-business-homepage .main-content .step .text p {
+        margin-left: 1rem;
+    }
+}

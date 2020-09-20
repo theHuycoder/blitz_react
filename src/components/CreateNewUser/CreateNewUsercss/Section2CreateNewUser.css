@@ -1,0 +1,45 @@
+.row-section-2-create-new-user {
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.section-2-create-new-user h5 {
+       color:#36177E;
+}
+.section-2-create-new-user ul {
+    margin:0;padding:0;
+    list-style-type: square;
+    list-style-position: inside;
+}
+.section-2-create-new-user .btn-primary {
+    color: rgba(255, 255, 255, 1);
+    background-color: #36177E !important;
+    border-radius: 0;
+}
+
+.section-2-create-new-user .btn-primary:hover {
+    background-color: rgba(54, 23, 126, 0.6) !important;
+}
+
+.section-2-create-new-user .btn-primary:focus, .create-new-user .btn-primary:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.img-container-section-2-create-new-user {
+    position: relative;
+    padding-top: 68%;
+}
+.img-container-section-2-create-new-user img {
+    position: absolute;
+    top: 0; left:0;
+    width: 100%; height: 100%;
+    background-color: #36177E;
+}
+@media (min-width: 1400px) {
+    .row-section-2-create-new-user {
+        padding:6rem 0;
+    }
+    .section-2-create-new-user .btn-primary {
+        padding: 0.625rem 1.75rem;
+        margin-top: 3.75rem;
+    }
+}

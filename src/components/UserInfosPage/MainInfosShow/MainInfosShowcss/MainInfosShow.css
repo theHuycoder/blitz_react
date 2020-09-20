@@ -1,0 +1,10 @@
+.main-infos-show p.text-28px {
+    color: #FFE700;
+    background-color: #36177E;
+}
+@media (min-width: 1400px) {
+    .main-infos-show p.text-28px {
+        padding: 1.125rem 1rem;
+        margin-bottom: 2rem;
+    }
+}
